@@ -4,3 +4,39 @@
     color: black;
     text-align: center;
 }
+.flex-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+.flex-item {
+    box-sizing: border-box;
+    border: 5px white;
+    padding: 10px;
+    background-color: grey;
+    flex: 1 1 auto
+}
+.flex-item1 {
+    box-sizing: border-box;
+    border: 5px white;
+    padding: 10px;
+    flex: 5 1 auto;
+    background-color: lightgray;
+    position: relative;
+    left: 20px;
+}
+.a {
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+.bot {
+    background-color: lightsalmon;
+    text-align: center;
+
+}
+#txtbox {
+    font-size: 18pt;
+    height: 42px;
+    width: 300px;
+    text-align: center;
+}
